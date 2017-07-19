@@ -1,4 +1,8 @@
 function varargout = subsref(obj, S)
+    % Created by Viktor Horvath (Epstein lab at Brandeis) with 
+    % MATLAB Version: 9.2.0.556344 (R2017a)
+    % 2017-07-12
+    
     % Accessing data and properties
 %     assert(numel(S) == 1, 'Only single level indexing is supported.');
     varargout = cell(1, nargout);

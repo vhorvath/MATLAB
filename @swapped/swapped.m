@@ -41,7 +41,7 @@ classdef swapped < handle
     % numel: Number of elements 
     % occupancy: Size of data on harddisk
     %
-    % Created by Viktor Horvath (Epstein lab) with 
+    % Created by Viktor Horvath (Epstein lab at Brandeis) with 
     % MATLAB Version: 9.2.0.556344 (R2017a)
     % 2017-07-12
 
@@ -127,7 +127,7 @@ classdef swapped < handle
             try
                 obj.bitmap(subs_{:});
             catch
-                error('Dimension mismatch');
+                error('Dimension mismatch array size = [%d %d].', size(obj.bitmap));
             end
             ixs = obj.ixmap(subs_{:});
             ixs = [ixs(:)];

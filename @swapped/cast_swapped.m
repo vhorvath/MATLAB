@@ -1,4 +1,8 @@
 function obj = cast_swapped(~, filename)
+    % Created by Viktor Horvath (Epstein lab at Brandeis) with 
+    % MATLAB Version: 9.2.0.556344 (R2017a)
+    % 2017-07-12
+    
     pathstr = fileparts(filename);
     
     S = load(filename);         % Need to update data location

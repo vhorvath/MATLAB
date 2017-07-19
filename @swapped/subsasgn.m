@@ -1,5 +1,9 @@
 function obj = subsasgn(obj, S, varargin)
-    % Data setting methods           
+    % Created by Viktor Horvath (Epstein lab at Brandeis) with 
+    % MATLAB Version: 9.2.0.556344 (R2017a)
+    % 2017-07-12
+    
+    % Data setting methods
     L1 = S(1);      % Top level indexing
     if strcmp(L1.type, '.')  % standard interface for properties
         if strcmp(L1.subs, 'folder')
