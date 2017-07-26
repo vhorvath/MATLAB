@@ -1,0 +1,10 @@
+{
+"swapped":
+{
+    "inputs":
+    [
+        {"name":"filename", "kind":"optional", "type":"filepath=*.mat"},
+		{"name":"varargin", "kind":"optional", "multiplicity":"append"}
+    ]
+}
+}
